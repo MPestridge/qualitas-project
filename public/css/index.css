@@ -1,11 +1,11 @@
 body {
-  background-color: #DDAA2D;
+  /*background-color: #DDAA2D;*/
   padding: 0;
   margin: 0;
 }
 
 .hero-img {
-  background: url('../images/qualitas-hero-image.jpg') no-repeat;
+  background: url('../images/qualitas-landing-background.png') no-repeat;
   position: absolute;
   width: 100%;
   height: 100vh;
@@ -15,26 +15,36 @@ body {
   box-shadow: 0 0 100px 20px black inset;
 }
 
-.hero-content {
+.hero-buttons {
+  background: rgba(0, 0, 0, .9);
+  clip-path: polygon(6% 0, 100% 0, 100% 85%, 94% 100%, 0 100%, 0 100%, 0 15%);
   color: white;
   font-size: 4rem;
+  height: 150px;
   left: 50%;
-  padding: 0 20%;
+  /*padding: 0 20%;*/
   position: relative;
   text-align: center;
   text-shadow: 2px 2px black;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 350px;
 }
 
 .logo {
-  
+
 }
 
 .logo-container {
-  border: 10px solid blue;
+  background: url('../images/qualitas-words-wide.png');
+  background-position: 50% 70%;
+  background-size: cover;
+  /*border: 10px solid blue;*/
+  border-radius: 30px 30px 0 0;
   bottom: 0px;
-  height: 20%;
+  height: 15%;
   left: 0px;
+  opacity: 1;
   position: fixed;
+  /*width: 100%;*/
 }
